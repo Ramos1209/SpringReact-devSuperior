@@ -3,7 +3,7 @@ import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 import { useEffect } from "react";
 import { useState } from "react";
-import { Movie, MoviePage } from "types/movie";
+import {  MoviePage } from "types/movie";
 import { BASE_URL } from "utils/request";
 
 function Listing() {
